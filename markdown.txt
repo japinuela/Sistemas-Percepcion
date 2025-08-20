@@ -1,0 +1,40 @@
+# 📝 Chuleta de sintaxis Markdown en Jupyter
+
+## Títulos
+# Título nivel 1
+## Título nivel 2
+### Título nivel 3
+
+## Énfasis
+**Negrita**  
+*Itálica*  
+~~Tachado~~
+
+## Listas
+- Elemento 1
+- Elemento 2
+  - Sub-elemento
+
+1. Paso uno
+2. Paso dos
+3. Paso tres
+
+## Código
+Código en línea: `print("Hola")`
+
+Bloque de código:
+```python
+import numpy as np
+print(np.arange(5))
+
+La entropía de una variable aleatoria $X$ se define como:
+
+$$
+H(X) = - \sum_{i=1}^{n} p(x_i) \log_2 p(x_i)
+$$
+
+![Texto alternativo](ruta/imagen.png)
+
+La siguiente es la famosa imagen de Lena:
+
+![Lena en color](lena_color.tiff)

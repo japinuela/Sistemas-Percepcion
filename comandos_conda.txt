@@ -1,0 +1,29 @@
+PASOS PREVIOS
+conda init powershell
+conda install ipykernel
+
+
+CREAR ENTORNO CON CONDA:
+1. conda create -n vision python=3.13
+2. conda activate vision
+
+Tanto en fichero .py como en .ipynb seleccionar el interprete correcto y ya en ese momento:
+
+3. conda install pillow matplotlib
+4. pip freeze > requirements.txt
+
+SUBIR A GITHUB.COM
+
+DESCARGAR DE GITHUB
+Pasos Previos
+-------------
+conda init powershell
+conda install ipykernel
+
+En VSode:
+---------
+conda create -n vision python=3.13
+conda activate vision
+pip install -r requirements.txt
+
+
