@@ -20,7 +20,7 @@ Pasos Previos
 conda init powershell
 conda install ipykernel
 
-En VSode:
+En VSCode:
 ---------
 conda create -n vision python=3.13
 conda activate vision
